@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dijana.presidentproject.fragments.FirstFragment">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="Retrofit bez Otta" />
+
+    <Button
+        android:id="@+id/buttonGetPresidents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Ispis predsjednika"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars= "vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
